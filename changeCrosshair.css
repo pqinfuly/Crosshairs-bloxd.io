@@ -1,0 +1,9 @@
+.CrossHair {
+  background-image: url('https://iili.io/dgUN5B4.png') !important;
+  color: #fff;
+  font-size: 0rem;
+  font-weight: 300;
+  height: 20px;
+  left: 50%;
+  line-height: 20px;
+}
