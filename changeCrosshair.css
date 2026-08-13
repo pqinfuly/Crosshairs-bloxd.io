@@ -1,9 +1,19 @@
-.CrossHair {
-  background-image: url('https://freeimage.host/i/CPzKXrG') !important;
-  color: #fff;
-  font-size: 0rem;
-  font-weight: 300;
-  height: 20px;
-  left: 50%;
-  line-height: 20px;
+.Crosshair {
+  /* Direct Image URL */
+  background-image: url('https://iili.io/CPzKXrG.png') !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  background-position: center !important;
+
+  /* Dimensions & Alignment */
+  width: 20px !important;
+  height: 20px !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+
+  /* Hide default text crosshair */
+  color: transparent !important;
+  font-size: 0rem !important;
+  opacity: 1 !important;
 }
